@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Минимальная сумма трат за день составила " + minArr + " рублей. Максимальная сумма трат за день составила " + maxArr + " рублей");
         System.out.println("Задание 3");
         double midArr = (double) sum / arr.length;
-        System.out.println("Средняя сумма трат за месяц составила " + midArr + " рублей");
+        System.out.printf("Средняя сумма трат за месяц составила %.2f рублей\n", midArr);
     }
     public static void task2(){
         System.out.println("Задание 4");
